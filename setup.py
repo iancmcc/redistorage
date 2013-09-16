@@ -18,9 +18,10 @@ setup(name='redistorage',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-          # -*- Extra requirements: -*-
+          'zope.interface',
+          'ZODB',
+          'redis'
       ],
       entry_points="""
-      # -*- Entry points: -*-
       """,
       )
